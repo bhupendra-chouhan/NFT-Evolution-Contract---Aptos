@@ -1,0 +1,16 @@
+[package]
+name = "NFTEvolutionContract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+bhupendra_addr = "0xf1d0f532e8e58c100bc78bf79da69e3b59627b484b202921b1a24c568875b7bb"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
