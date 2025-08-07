@@ -48,8 +48,8 @@ module bhupendra_addr::NFTEvolution {
         nft.interaction_count = nft.interaction_count + 1;
         
         let time_since_creation = current_time - nft.creation_time;
-        let time_factor = time_since_creation / 86400; // Days since creation
-        let interaction_factor = nft.interaction_count / 5; // Every 5 interactions
+        let time_factor = time_since_creation / 86400; 
+        let interaction_factor = nft.interaction_count / 5; 
         
         let new_level = time_factor + interaction_factor;
         if (new_level > nft.evolution_level) {
